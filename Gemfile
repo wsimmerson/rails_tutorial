@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'gravatar_image_tag'
+
 group :development do
   gem 'rspec-rails'
 end

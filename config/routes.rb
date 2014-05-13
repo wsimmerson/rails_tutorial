@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
   
-  get 'users/new'
-
   #####
   # Pages Controller Routes
   get '/about', :to => 'pages#about'
